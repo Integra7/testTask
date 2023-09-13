@@ -2,9 +2,11 @@ package com.example.testtask.service;
 
 import org.springframework.stereotype.Service;
 
-import java.util.*;
+import java.util.Comparator;
+import java.util.Map;
+import java.util.HashMap;
 import java.util.stream.Collectors;
-
+import java.util.LinkedHashMap;
 @Service
 public class CharacterFrequencyService
 {
